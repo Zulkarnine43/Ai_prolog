@@ -1,0 +1,2 @@
+barking(dog).
+likes(Jaya, Food):- delicious(Food).

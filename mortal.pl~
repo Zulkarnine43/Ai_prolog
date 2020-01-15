@@ -1,0 +1,5 @@
+human(socrates).
+human(gates).
+human(paul).
+
+mortal(X):-human(X).

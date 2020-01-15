@@ -1,0 +1,9 @@
+result(shaon,3.80).
+result(sajid,4.50).
+result(faruqe,3,5).
+
+get_result:-
+    write("Enter a name"),nl,
+    read(X),nl,
+    result(X,Y),nl,
+    write(Y).
